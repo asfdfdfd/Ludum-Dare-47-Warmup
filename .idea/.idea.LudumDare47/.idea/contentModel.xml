@@ -79,7 +79,10 @@
             <e p="IsManDead.cs" t="Include" />
             <e p="ManFollowsBubble.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerWins.cs" t="Include" />
             <e p="Spike.cs" t="Include" />
+            <e p="ThoughtsRandomizer.cs" t="Include" />
+            <e p="WinScene.cs" t="Include" />
           </e>
         </e>
         <e p="Plugins" t="Include">
