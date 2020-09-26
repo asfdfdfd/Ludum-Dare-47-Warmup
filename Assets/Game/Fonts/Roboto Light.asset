@@ -154,11 +154,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: roboto_light SDF
+  m_Name: Roboto Light
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -728436363
   material: {fileID: -7983814070181805232}
-  materialHashCode: 0
+  materialHashCode: -1504324427
   m_Version: 1.1.0
   m_SourceFontFileGUID: e2fdf70a94a0c4ed48896ff9487aaa04
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: e2fdf70a94a0c4ed48896ff9487aaa04,
