@@ -9,6 +9,8 @@ public class Air : MonoBehaviour
     private PlayerController playerController;
 
     public float AmountOfAir;
+
+    [SerializeField] private AudioSource soundPlayerTakesBubble;
     
     private void Start()
     {
@@ -21,6 +23,8 @@ public class Air : MonoBehaviour
     {
         if (other == colliderBubble)
         {
+            soundPlayerTakesBubble.Play();
+            
             playerController.AddAir(AmountOfAir);
             
             Destroy(gameObject);
