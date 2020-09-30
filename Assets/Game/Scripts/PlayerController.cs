@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
 
     private bool _isFrozen = false;
     
+    [SerializeField] private AudioSource soundPlayerTakesBubble;
+    
     private void FixedUpdate()
     {
         if (_isFrozen)
@@ -35,6 +37,8 @@ public class PlayerController : MonoBehaviour
 
     public void AddAir(float air)
     {
+        soundPlayerTakesBubble.Play();
+        
         Vector3 scaleOld = gameObject.transform.localScale;
         Vector3 scaleNew = new Vector3(scaleOld.x + air, scaleOld.y + air, 1);
         
